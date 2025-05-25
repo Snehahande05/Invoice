@@ -13,4 +13,5 @@ Proud to share one of my recent front-end mini projects — a stylish, functiona
 
 From background styling to elegant fonts and layout — this project helped me sharpen my HTML/CSS skills while learning how to create professional, printable web documents. 🧑‍💻📄
 
-![Uploading Screenshot 2025-05-25 at 7.40.40 PM.png…]()
+<img width="1470" alt="Screenshot 2025-05-25 at 7 40 40 PM" src="https://github.com/user-attachments/assets/d62de2d0-a552-40b5-b77e-cebdb809a969" />
+
