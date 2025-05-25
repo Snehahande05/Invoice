@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Invoice </title>
+    </head>
+    <style>
+        h1{
+            text-align: center;
+            color:black;
+            font-family: 'Calibri';
+            /* border:2px dotted black; */
+        }
+
+        .myclass{
+            text-align: left;
+            color:black;
+            padding-left: 20px;
+            font-size: larger;
+        }
+
+        .yourclass{
+            text-align: right;
+            color:black;
+            padding-right: 20px;
+            font-size: larger;
+        }
+
+        body{
+            background-image: url("https://m.media-amazon.com/images/I/51yH2XNj6kL.png");
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        table,
+        th,
+        td{
+            border: 3px solid black;
+            padding:20px;
+            border-collapse: collapse;
+        }
+
+        table{
+            width:100%;
+        }
+
+        th{
+            background-color: rgb(241, 210, 172);
+        }
+
+        td{
+            background-color: rgb(237, 221, 201);
+        }
+
+        h2{
+            text-align: right;
+        }
+
+        .signature-section {
+            margin-bottom: 0px;
+            text-align: right;
+            padding-right: 40px;
+            
+        }
+
+        .signature-img {
+            width: 200px;
+            border-bottom: 2px solid #333;
+            margin-bottom: 5px;
+        }
+
+        .info-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 0 20px;
+        }
+
+        .dotted-name{
+            border:2px dotted black;
+        }
+        
+    </style>
+    <body>
+
+        <h1 class="dotted-name"> INVOICE </h1>
+        <div class="info-row">
+            <p class="myclass">Invoice no.01234</p>
+            <p class="yourclass">Billed to Sneha Hande</p>
+        </div>
+        <div class="info-row">
+            <p class="myclass">24/04/25</p>
+            <p class="yourclass">123 Anywhere St.</p>
+        </div>
+
+        <table>
+            <tr>
+                <th> Product name</th>
+                <th> Product description </th>
+                <th> Price </th>
+                <th> Quantity </th>
+                <th> Amount </th>
+            </tr>
+
+            <tr>
+                <td>Dairy Milk</td>
+                <td>Classic milk chocolate bar (45g)</td>
+                <td>50</td>
+                <td>2</td>
+                <td>100</td>
+              </tr>
+
+            <tr>
+                <td>Fogg Perfume</td>
+                <td>Long-lasting body spray (120ml)</td>
+                <td>220</td>
+                <td>1</td>
+                <td>220</td>
+            </tr>
+
+            <tr>
+                <td>KitKat</td>
+                <td>Crispy wafer chocolate (37g)</td>
+                <td>30</td>
+                <td>3</td>
+                <td>90</td>
+            </tr>
+
+            <tr>
+                <td>T shirt</td>
+                <td>Designer t shirt with light color</td>
+                <td>270</td>
+                <td>2</td>
+                <td>540</td>
+            </tr>
+
+            <tr>
+                <td>Perk</td>
+                <td>Light chocolate wafer bar (35g)</td>
+                <td>10</td>
+                <td>5</td>
+                <td>50</td>
+            </tr>
+
+            <tr>
+                <td> </td> 
+                <td> </td>
+                <td> </td>
+                <td style="background-color: rgb(235, 201, 160);"> Total </td>
+                <td style="background-color: rgb(235, 201, 160);"> 1000 </td>
+            </tr>
+
+        </table>
+
+        <div class="signature-section">
+            <img class="signature-img" src="/Users/snehahande/Desktop/Screenshot 2025-04-24 at 3.46.43 PM.png" alt="Signature">
+            <p class="yourclass">Finance Manager</p>
+        </div>
+
+    </body> 
+</html>
